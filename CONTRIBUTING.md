@@ -1,0 +1,2 @@
+# Contribution Policy
+This repository does not accept contributions such as issues, pull requests, or feature requests. Please feel free to fork the repository if you'd like to make changes or use it for your own purposes.
