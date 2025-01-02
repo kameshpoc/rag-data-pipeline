@@ -61,7 +61,7 @@ rules. It is optional.
     and navigate to the code sample.
 
     ```sh
-    git clone https://github.com/kameshpoc/rag-data-pipeline
+    git clone https://github.com/kameshpoc/rag-data-pipeline.git
     ```
 
 ## Create a Cloud Storage bucket
