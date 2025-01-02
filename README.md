@@ -205,3 +205,10 @@ For more information, see the Apache Beam
 documentation.
 
 ---
+## Repository: rag-data-pipeline
+
+This repository is public for reference purposes only. Contributions in the form of issues, pull requests, or feature requests are not accepted. If you'd like to use or modify this project, please fork it.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENCE) file for details.
