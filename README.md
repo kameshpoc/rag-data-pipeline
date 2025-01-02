@@ -57,12 +57,11 @@ rules. It is optional.
 
 1.  Make sure to enable Dataflow API & other ralated API like Cloud Build. Refer Dataflow documentation for details.
 
-1.  Clone the [`rag-data-pipeline` repository](https://github.com/GoogleCloudPlatform/python-docs-samples)
+1.  Clone the [`rag-data-pipeline` repository](https://github.com/kameshpoc/rag-data-pipeline)
     and navigate to the code sample.
 
     ```sh
-    git clone https://github.com/GoogleCloudPlatform/python-docs-samples.git
-    cd python-docs-samples/dataflow/flex-templates/pipeline_with_dependencies
+    git clone https://github.com/kameshpoc/rag-data-pipeline
     ```
 
 ## Create a Cloud Storage bucket
