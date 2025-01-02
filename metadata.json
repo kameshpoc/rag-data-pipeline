@@ -1,0 +1,37 @@
+{
+  "_comment": "This file allows you to optionally add additional metadata for the Flex Template, its parameters and their validation rules.",
+  "name": "RAG-Data-Processing.",
+  "description": "A Flex Template that finds the pdf files, create embeddings from those and store embeddings in corresponding pickle files.",
+  "parameters": [
+    {
+      "name": "inputFolder",
+      "label": "Input Folder Path",
+      "helpText": "Path to the folder in Cloud Storage where input PDF files are located.",
+      "paramType": "TEXT",
+      "regexes": [
+        "^gs:\\/\\/[^\\n\\r]+$"
+      ],
+      "defaultValue": "gs://gcs-dataflow-demo/input/"
+    },
+    {
+      "name": "outputFolder",
+      "label": "Output Folder Path",
+      "helpText": "Path to the folder in Cloud Storage where output embeddings will be stored.",
+      "paramType": "TEXT",
+      "regexes": [
+        "^gs:\\/\\/[^\\n\\r]+$"
+      ],
+      "defaultValue": "gs://gcs-dataflow-demo/output/"
+    },
+    {
+      "name": "processedFolder",
+      "label": "Processed Folder Path",
+      "helpText": "Path to the folder in Cloud Storage where processed PDF files will be moved.",
+      "paramType": "TEXT",
+      "regexes": [
+        "^gs:\\/\\/[^\\n\\r]+$"
+      ],
+      "defaultValue": "gs://gcs-dataflow-demo/processed/"
+    }
+  ]
+}

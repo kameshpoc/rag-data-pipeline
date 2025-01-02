@@ -1,0 +1,10 @@
+**/*.egg-info
+.venv/
+.vscode/
+*cmd*.txt
+*key*.json
+dist/
+build/
+*build*test*.sh
+.DS_Store
+*_pycache__/
